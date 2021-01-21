@@ -10,7 +10,9 @@ const Notification = ({show, type, dismiss}) => (
         onClick={dismiss}
         >
         <h3 className={type}>This is a {type} type alert</h3>
-        <div className='close_alert'>X</div>
+        <div className='close_alert'
+        style={{display: dismiss === undefined ? 'none' : 'block'}}
+        >X</div>
         </Alert>
 );
     
