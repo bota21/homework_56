@@ -32,7 +32,7 @@ title{
 }
 .button_wrapper{
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 .button_wrapper button{
     padding: 10px 10px;
@@ -43,6 +43,7 @@ title{
     border-radius: 5px;
     box-shadow: inset 0 0 2px #000;
     opacity: 0.9;
+    color: #fff;
 }
 .button_wrapper button:hover{
     opacity: 1;

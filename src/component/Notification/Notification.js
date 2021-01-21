@@ -7,7 +7,7 @@ const Notification = ({show, type, dismiss}) => (
         style={{
             display: show ? 'flex' : 'none'
         }}
-        onclick={dismiss}
+        onClick={dismiss}
         >
         <h3 className={type}>This is a {type} type alert</h3>
         <div className='close_alert'>X</div>
