@@ -1,0 +1,64 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.close{
+    align-self: flex-end;
+}
+.popUp{
+    padding: 5px 30px;
+    background: rgb(231, 224, 183);
+    border-radius: 5px;
+    margin: 0;
+    align-self: flex-start;
+}
+title{
+    display: inline;
+}
+.button_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.button_wrapper button{
+    padding: 10px 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0 0 2px #000;
+    opacity: 0.9;
+}
+.button_wrapper button:hover{
+    opacity: 1;
+}
+.button_wrapper button:active{
+    box-shadow: inset 0 0 4px #000;
+}
+.Modal .primary{
+    background: #2572FB;
+}
+.Modal .danger{
+    background: #D1293D;
+}
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

@@ -1,0 +1,36 @@
+.Alert{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background: gold;
+    border-radius: 3px;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px auto;
+    position: absolute;
+    top: 0;
+    left: 100px;    
+}
+.Alert h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.close_alert{
+    cursor: pointer;
+}
+.danger{
+    background: pink;
+    color: hotpink;
+}
+.success{
+    background: rgb(154, 194, 154);
+    color: green;
+}
+.warning{
+    background: rgb(226, 214, 103);
+    color: orange;
+}
+.primary{
+    background: rgb(192, 194, 192);
+    color: rgb(139, 135, 135);
+}
